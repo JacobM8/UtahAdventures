@@ -79,7 +79,7 @@
                         </div>
                         <!-- need to adjust the size to match the other 2 pics -->
                         <div class="carousel-item">
-                            <img class="d-block w-100" src="img/resort_skiing.png" alt="Resort Skiing" />
+                            <img class="d-block w-100" src="img/resort_skiing.png" alt="Resort Skiing"/>
                             <div class="carousel-caption">
                                 <h3>Resort Skiing</h3>
                             </div>
@@ -99,45 +99,45 @@
 
         <div class="row align-items-center">
             <div class="col-sm-4 col-md-3">
-                <!-- need to figure out padding or margin so text isn't so close to the carousel -->
-                <h3 class="text-sm">Recent Trips</h2>
+                <h2 class="text-sm">Recent Trips</h2>
             </div>
         </div>
-        <div class="row row-content align-items-center">
-            <img src="img/little_death_hollow.jpeg" alt="Little Death Hollow Pic" style="width:50%;">
-            <div class="text-block">
-                <h4>Little Death Hollow</h4>
-                <p>26 miles - 3 days</p>
-            </div>
-            <div class="col">
-                <div class="media">
-                    <div class="media-body align-self-center">
-                        <div class="text-block">
-                            <h4>Trip 2</h4>
-                            <p>X miles - x days</p>
-                        </div>
-                        <img class="d-flex ml-3" src="img/trees.jpeg" alt="Trees">
+        <div class="container2">
+            <div class="row">
+                <div class="col-6">
+                    <img src="img/little_death_hollow.jpeg" alt="Little Death Hollow Pic" style="height:110%;" class="rounded">
+                    <div class="bottom-right">
+                        <h2>Little Death Hollow</h2>
+                        <p>26 miles - 3 days</p>
                     </div>
                 </div>
-            </div>
-            <img src="img/waterfall.jpeg" alt="Waterfall" style="width:25%;">
-            <div class="text-block">
-                <h4>Trip 3</h4>
-                <p>X miles - x days</p>
+                <div class="col">
+                    <!-- how do you add a margin or padding between the two vertical images -->
+                    <img src="img/trees.jpeg" alt="Trip2" style="height: 55%;" class="rounded mx-auto d-block">
+                    <div class="top-right">
+                        <h2>Trip 2</h2>
+                        <p> x miles - x days</p>
+                    </div>
+                    <img src="img/waterfall.jpeg" alt="Trip3" style="height:55%;" class="rounded">
+                    <div class="bottom-far-right">
+                        <h2>Trip 3</h2>
+                        <p>x miles - x days</p>
+                    </div>
+                </div>
             </div>
         </div>
 
         <div class="row">
             <div class="col">
-                <h2>Adventures</h3>
+                <h2>Adventures</h2>
                     <div id="accordion">
                         <div class="card">
                             <div role="tab" class="card-header">
-                                <h4>
+                                <h5>
                                     <a data-toggle="collapse" data-target="#BcSkiing">
                                         Backcountry Skiing
                                     </a>
-                                </h4>
+                                </h5>
                                 <div class="collapse show" id="BcSkiing" data-parent="#accordion">
                                     <div class="card-body">
                                         <p class="d-none d-sm-block">Take your skiing where few have gone before in the
@@ -148,11 +148,11 @@
                         </div>
                         <div class="card">
                             <div role="tab" class="card-header">
-                                <h4>
+                                <h5>
                                     <a class="collapsed" data-toggle="collapse" data-target="#RSkiing">
                                         Resort Skiing
                                     </a>
-                                </h4>
+                                </h5>
                                 <div class="collapse" id="RSkiing" data-parent="#accordion">
                                     <div class="card-body">
                                         <p class="d-none d-sm-block">Find out my favorite runs in my favorite resorts.
@@ -163,11 +163,11 @@
                         </div>
                         <div class="card">
                             <div role="tab" class="card-header">
-                                <h4>
+                                <h5>
                                     <a class="collapsed" data-toggle="collapse" data-target="#backpack">
                                         Backpacking
                                     </a>
-                                </h4>
+                                </h5>
                                 <div class="collapse" id="backpack" data-parent="#accordion">
                                     <div class="card-body">
                                         <p class="d-none d-sm-block">See my packing list and favorite foods to pack.</p>
@@ -177,11 +177,11 @@
                         </div>
                         <div class="card">
                             <div role="tab" class="card-header">
-                                <h4>
+                                <h5>
                                     <a class="collapsed" data-toggle="collapse" data-target="#hike">
                                         Hiking
                                     </a>
-                                </h4>
+                                </h5>
                                 <div class="collapse" id="hike" data-parent="#accordion">
                                     <div class="card-body"></div>
                                     <p class="d-none d-sm-block">See my favorite day hikes that lead to great views or
@@ -191,11 +191,11 @@
                         </div>
                         <div class="card">
                             <div role="tab" class="card-header">
-                                <h4>
+                                <h5>
                                     <a class="collapsed" data-toggle="collapse" data-target="#camp">
                                         Camping
                                     </a>
-                                </h4>
+                                </h5>
                                 <div class="collapse" id="camp" data-parent="#accordion">
                                     <div class="card-body"></div>
                                     <p class="d-none d-sm-block">Learn what gear, cooking equipment, and places to go
@@ -275,11 +275,12 @@
         </div>
     </div>
 
-    <div class="site-footer bg-dark">
+    <div class="site-footer">
         <div class="container">
             <div class="row">
                 <div class="col-4 col-sm-2 offset-1">
                     <h2>Links</h2>
+                    <!-- list won't display horizontally -->
                     <ul class="list-unstyled list-group list-group-horizontal-sm">
                         <li><a href="#">Home</a></li>
                         <li><a href="#">Backcountry Skiing</a></li>

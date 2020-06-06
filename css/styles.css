@@ -11,13 +11,19 @@ h3 {
 .container {
     position: relative;
   }
+
+.container2 {
+    position: relative;
+    text-align: center;
+    color: white;
+  }
   
   /* Bottom right text */
 .text-block {
     position: absolute;
     bottom: 20px;
     right: 20px;
-    background-color: black;
+    background-color: gray;
     color: white;
     padding-left: 20px;
     padding-right: 20px;
@@ -32,3 +38,21 @@ h3 {
     border-bottom: 1px ridge;
     min-height: 200px;
 }
+
+  .bottom-right {
+    position: absolute;
+    bottom: 8px;
+    right: 30px;
+  }
+
+  .bottom-far-right {
+    position: absolute;
+    bottom: 8px;
+    right: 130px;
+  }
+
+  .top-right {
+    position: absolute;
+    top: 8px;
+    right: 130px;
+  }
