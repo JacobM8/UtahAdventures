@@ -12,6 +12,12 @@ h3 {
     padding: 20px;
 }
 
+h4 {
+    margin-top: 20px;
+    padding: 20px;
+    color: black;
+}
+
 /* Container holding the image and the text */
 .container {
     position: relative;
@@ -62,6 +68,20 @@ h3 {
     right: 85px;
 }
 
+.top-centered {
+    position: absolute;
+    top: 10%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.bottom-centered {
+    position: absolute;
+    bottom: 0%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
 .center {
     text-align: center;
 }
@@ -72,6 +92,10 @@ h3 {
 
 .carousel-caption {
     background-color: rgba(0, 0, 0, 0.5); 
+}
+.caption-top{
+    top: 20px;
+    background-color: transparent;
 }
 
 /*
@@ -94,3 +118,4 @@ Forces carousel image to be 100% width and not max width of 100%
     text-align: center;
     background: transparent;
 }
+
